@@ -1,0 +1,9 @@
+internvl_chat/merge/*
+internvl_chat/internvl_results/*
+internvl_chat/internvideo_results/*
+internvl_chat/best/*
+internvl_chat/shell/data/mac*
+/internvl_chat/*.sh
+internvl_chat/eval*.py
+
+
