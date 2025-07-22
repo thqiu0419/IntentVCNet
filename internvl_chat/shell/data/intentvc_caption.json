@@ -1,7 +1,7 @@
 {
   "intent_data": {
     "root": "/data/mm2025/IntentVC",
-    "annotation": "shell/data/intentvc_data-text_only.jsonl",
+    "annotation": "shell/data/intentvc_data-text.jsonl",
     "data_augment": false,
     "repeat_time": 1,
     "length": 4900

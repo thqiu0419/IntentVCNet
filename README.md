@@ -27,7 +27,7 @@ Just modify internvl_chat/shell/data/intentvc_caption.json
 {
   "intent_data": {
     "root": "/data/mm2025/IntentVC",
-    "annotation": "shell/data/intentvc_data-text_only.jsonl",
+    "annotation": "shell/data/intentvc_data-text.jsonl",
     "data_augment": false,
     "repeat_time": 1,
     "length": 4900
@@ -36,8 +36,9 @@ Just modify internvl_chat/shell/data/intentvc_caption.json
 ```
 Replace "root" with the desired path
 #### 2.3. download pretrained weight
-https://huggingface.co/OpenGVLab/InternVL3-8B
-https://huggingface.co/OpenGVLab/InternVL3-14B
+[InternVL3-8B](https://huggingface.co/OpenGVLab/InternVL3-8B)
+
+[InternVL3-14B](https://huggingface.co/OpenGVLab/InternVL3-14B)
 
 ### 3.Start  training
 ```bash
@@ -125,3 +126,8 @@ Modify batch-size, number of GPUs to match the target machine
 python eval_const.py
 ```
 check "checkpoint_path" and "now_str"(save_path)
+
+
+## Acknowledgments
+This project is based on [InternVL](https://github.com/OpenGVLab/InternVL) and [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory). Thanks for their awesome works.
+
