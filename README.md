@@ -1,6 +1,6 @@
 # IntentVCNet: Bridging Spatio-Temporal Gaps for Intention-Oriented Controllable Video Captioning
 
-Runner-up Solution in "IntentVC: Intention-Oriented Controllable Video Captioning"@MM'25 
+Runner-up Solution in "IntentVC: Intention-Oriented Controllable Video Captioning"@ACM MM'25 
 
 This implementation is an easy start based on InternVL.
 ### 1.Environmental settings
